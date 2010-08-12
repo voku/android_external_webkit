@@ -1321,7 +1321,7 @@ static void AddJavascriptInterface(JNIEnv *env, jobject obj, jint nativeFramePoi
 
 #if USE(JSC)
     // Copied from qwebframe.cpp
-    JSC::JSLock lock(false);
+    JSC::JSLock lock(JSC::SilenceAssertionsOnly);
     WebCore::JSDOMWindow *window = WebCore::toJSDOMWindow(pFrame, mainThreadNormalWorld());
     if (window) {
         RootObject *root = pFrame->script()->bindingRootObject();
