@@ -584,6 +584,7 @@ LOCAL_SRC_FILES := $(LOCAL_SRC_FILES) \
 	plugins/android/PluginViewAndroid.cpp \
 	\
 	rendering/AutoTableLayout.cpp \
+    rendering/ArabicShapingUtils.cpp \
 	rendering/BidiRun.cpp \
 	rendering/CounterNode.cpp \
 	rendering/EllipsisBox.cpp \
