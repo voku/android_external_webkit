@@ -31,6 +31,7 @@
 #include "FrameView.h"
 #include "IntRect.h"
 #include "SkRegion.h"
+#include "WebCoreFrameBridge.h"
 #include "WebCoreViewBridge.h"
 #include "WebViewCore.h"
 
